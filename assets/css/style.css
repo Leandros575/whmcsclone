@@ -3,13 +3,40 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*inicio da sessão header*/ 
 header .row .col {
     justify-content: end;
     display: flex;
     width: 100%;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 25px 0px;
 }
+
+header .row {   
+    width: 100%;
+}
+
+header .row .col button {
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 25px 0px;
+    width: 13%;
+    color: #ffff;
+    background-color: #337ab7;
+}
+
+
+/*fim da sessão header*/ 
+
+
+/*inicio da sessão login*/ 
+
+.login .row {}
+
 
 .login .row {
     width: 100%;
     text-align: center;
 }
+
+/*fim da sessão login*/ 
