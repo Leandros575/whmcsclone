@@ -5,12 +5,13 @@ body {
 
 
 /*inicio da sessão header*/ 
+
 header .row .col {
     justify-content: end;
     display: flex;
     width: 100%;
     padding: 20px 0px 0px 0px;
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 header .row {   
@@ -34,12 +35,41 @@ header .row .col button {
 
 /*inicio da sessão login*/ 
 
-.login .row {}
-
-
 .login .row {
-    width: 100%;
     text-align: center;
 }
 
+.login .row .col img {
+    height: 112px;
+}
+
 /*fim da sessão login*/ 
+
+
+
+/*inicio da sessão card*/ 
+
+.card {
+   margin: 0 auto;
+   max-width: 650px;
+   padding: 0 25px;
+}
+
+
+.card .rowcard {
+    text-align: center;
+    width: 100%;
+}
+
+.card .rowcard .cardbody {
+    background-color: #ffff;
+}
+
+.card .rowcard .cardbody .rowtitlecard .coltitlecard h4 {
+    padding: 16px 0px 16px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+/*fim da sessão card*/ 
+
+
