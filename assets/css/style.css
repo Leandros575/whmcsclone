@@ -63,12 +63,24 @@ header .row .col button {
 
 .card .rowcard .cardbody {
     background-color: #ffff;
+    height: 450px;
 }
 
 .card .rowcard .cardbody .rowtitlecard .coltitlecard h4 {
-    padding: 16px 0px 16px 0px;
+    padding: 45px 0px 16px 0px;
     margin: 0px 0px 0px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
 }
+
+.card .rownome .colnome {   
+    
+}
+
 
 /*fim da sessão card*/ 
 
