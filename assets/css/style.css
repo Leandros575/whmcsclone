@@ -41,6 +41,8 @@ header .row .col button {
 
 .login .row .col img {
     height: 112px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 28px 0px;
 }
 
 /*fim da sessão login*/ 
@@ -72,24 +74,31 @@ header .row .col button {
     margin: 0px 0px 0px 0px;
     text-align: left;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 100;
     color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 36px;
+    letter-spacing: 1.1px;
+
 }
 
 .card .rownome .colnome input {   
-    padding: 15px 0px 14px 0px;
+    padding: 15px 0px 14px 16px;
     margin: 25px 0px 15px 0px;
-    width: 100%;
-
+    width: 97%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;    
 }
 
 .card .rowsenha .colsenha input {
-    padding: 15px 0px 14px 0px;
+    padding: 15px 0px 14px 16px;
     margin: 15px 0px 25px 0px;
-    width: 100%;
-}
+    width: 97%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 17px;
+}    
 
 
 .card .rowchek .colchek .checkbox {
@@ -100,7 +109,7 @@ header .row .col button {
 .card .rowchek .colchek .checkbox input {
     height: 16px;
     width: 9%;
-
+    margin: 0px 0px 0px -12px;
 }
 
 
@@ -108,11 +117,13 @@ header .row .col button {
     padding: 0px 60px 0px 0px;
     margin: 0px 85px 0px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .card .rowchek .colchek .checkbox .colconecte button {  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 13px 23px 13px 28px;
+    padding: 13px 36.2px 13px 36.9px;
     margin: 0px 0px 0px 26px;
     background-color: #0f5b9c;
     color: #ffff;
