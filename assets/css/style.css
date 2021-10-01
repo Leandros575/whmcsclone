@@ -2,7 +2,6 @@ html {
     height: 100%;
 }
 
-
 body {
     background-color: #1a4d80;
     font-family: Arial, Helvetica, sans-serif;
@@ -94,7 +93,7 @@ header .row .col button {
     width: 97%;
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 17px;    
+    font-size: 17px;   
 }
 
 .card .rowsenha .colsenha input {
@@ -161,8 +160,19 @@ footer .row .col  {
 footer .row .col a {
     text-decoration: none;
     padding: 10px;
+    color: #333;
 }
 
 
 /* fim footer */
 
+/* inicio desenvolvido */ 
+
+.desenvolvido .row .col p {
+text-align: center;
+padding: 20px;
+margin: 0%;
+color: #ffff;
+}
+
+/*fim desenvolvido */ 
