@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+}
+
+
 body {
     background-color: #1a4d80;
     font-family: Arial, Helvetica, sans-serif;
@@ -67,6 +72,7 @@ header .row .col button {
     background-color: #ffff;
     height: 450px;
     padding: 0px 60px 16px 60px;
+    border-radius: 12px;
 }
 
 .card .rowcard .cardbody .rowtitlecard .coltitlecard h4 {
@@ -132,4 +138,31 @@ header .row .col button {
 
 /*fim da sessão card*/ 
 
+
+/* inicio footer */ 
+
+footer {
+    position: relative;
+    top: 20%;
+    background-color: #ccc;
+    margin: 0px -60px 0px -60px;
+    border-radius: 0 0 12px 12px;
+    cursor: pointer;
+}
+
+footer .row {
+width: 100%;
+}
+
+footer .row .col  {
+    padding: 10px;
+}
+
+footer .row .col a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* fim footer */
 
