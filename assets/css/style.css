@@ -10,31 +10,51 @@ body {
 
 /*inicio da sessão header*/ 
 
-header .row .col {
-    justify-content: end;
-    display: flex;
-    width: 100%;
-    padding: 20px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-}
-
-header .row {   
-    width: 100%;
-}
-
-header .row .col button {
-    padding: 16px 0px 16px 0px;
-    margin: 0px 0px 25px 0px;
-    width: 13%;
-    color: #ffff;
-    background-color: #0f5b9c;
-    border-color:  #2e6da4;
-    border-radius: 6px;
-    font-size: 16px;
-}
 
 
 /*fim da sessão header*/ 
+
+header .dropbtn {
+    background-color: #286090;
+    color: #ffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+header .dropdown {
+position: relative;
+display: flex;
+justify-content: end;
+}
+
+header .dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+header .dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropdown:hover .dropbtn {
+background-color: #3e8e41;
+}
 
 
 /*inicio da sessão login*/ 
@@ -44,7 +64,7 @@ header .row .col button {
 }
 
 .login .row .col img {
-    height: 112px;
+    height: 100px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 28px 0px;
 }
@@ -56,9 +76,9 @@ header .row .col button {
 /*inicio da sessão card*/ 
 
 .card {
-   margin: 0 auto;
-   max-width: 600px;
-   padding: 0 25px;
+    margin: 0 auto;
+    max-width: 450px;
+    padding: 0px 101px 0px 0px;
 }
 
 
@@ -69,38 +89,44 @@ header .row .col button {
 
 .card .rowcard .cardbody {
     background-color: #ffff;
-    height: 450px;
-    padding: 0px 60px 16px 60px;
+    height: 339px;
     border-radius: 12px;
+    margin: 0 auto;
+    padding: 45px 45px 50px 50px;
+    width: 100%;
+}
+
+.card .container {  
+    width: 100%;
+    margin: 0 auto;
 }
 
 .card .rowcard .cardbody .rowtitlecard .coltitlecard h4 {
-    padding: 45px 0px 16px 0px;
+    padding: 10px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     text-align: left;
     text-transform: uppercase;
     font-weight: 100;
     color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 1.1px;
 
 }
-
 .card .rownome .colnome input {   
+    display: block;
     padding: 15px 0px 14px 16px;
-    margin: 25px 0px 15px 0px;
-    width: 97%;
-    border: 2px solid #ccc;
+    margin: 20px 0px 6px 0px;
+    width: 100%;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 17px;   
 }
-
 .card .rowsenha .colsenha input {
     padding: 15px 0px 14px 16px;
     margin: 15px 0px 25px 0px;
-    width: 97%;
-    border: 2px solid #ccc;
+    width: 100%;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 17px;
 }    
@@ -114,25 +140,31 @@ header .row .col button {
 .card .rowchek .colchek .checkbox input {
     height: 16px;
     width: 9%;
-    margin: 0px 0px 0px -12px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
 .card .rowchek .colchek .checkbox vertical-align {  
-    padding: 0px 60px 0px 0px;
-    margin: 0px 85px 0px 0px;
+    padding: 0px 57px 0px 0px;
+    margin: 0px 56px 0px 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .card .rowchek .colchek .checkbox .colconecte button {  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 13px 36.2px 13px 36.9px;
-    margin: 0px 0px 0px 26px;
+    padding: 13px 30px 13px 30px;
+    margin: 0px 0px 0px 31px;
     background-color: #0f5b9c;
     color: #ffff;
     font-size: 14px;
+}
+
+.user {
+    padding: 6px 12px;
+    font-size: 10px;
 }
 
 /*fim da sessão card*/ 
@@ -142,11 +174,12 @@ header .row .col button {
 
 footer {
     position: relative;
-    top: 20%;
     background-color: #ccc;
-    margin: 0px -60px 0px -60px;
+    top: 18%;
+    margin: 0px -46px 0px -50px;
     border-radius: 0 0 12px 12px;
     cursor: pointer;
+    padding: 13px 30px 13px 30px;
 }
 
 footer .row {
@@ -155,12 +188,15 @@ width: 100%;
 
 footer .row .col  {
     padding: 10px;
+    width: 100%;
 }
 
 footer .row .col a {
     text-decoration: none;
     padding: 10px;
     color: #333;
+    width: 100%;
+    padding: 23px 100px 0px 100px;
 }
 
 
@@ -168,11 +204,18 @@ footer .row .col a {
 
 /* inicio desenvolvido */ 
 
-.desenvolvido .row .col p {
-text-align: center;
-padding: 20px;
-margin: 0%;
-color: #ffff;
+.desenvolvido .row {    
+    text-align: center;
+    width: 100%;
+    padding: 27px 0px 0px 0px;
 }
+
+.desenvolvido .row .col a {
+padding: 20px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+color: #ffff;
+text-decoration: none;
+}
+
 
 /*fim desenvolvido */ 

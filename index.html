@@ -12,13 +12,16 @@
 
 <body>
     <header>
-        <div class="row">
-            <div class="col">
-                <button class="idioma">Escolha o seu idioma
-                    <span class="caret"><img src="./assets/img/caret.png"></span>
-                </button>
+        <div class="dropdown">
+            <button class="dropbtn">Escolha o seu idioma</button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
             </div>
         </div>
+        <span class="caret"><img src="./assets/img/caret.png"></span>
+        </button>
     </header>
 
     <section class="login">
@@ -29,53 +32,55 @@
     </section>
 
     <section class="card">
-        <div class="rowcard">
-            <div class="cardbody">
-                <div class="rowtitlecard">
-                    <div class="coltitlecard">
-                        <h4 class="card-title">CONECTE-SE
-                        </h4>
-                    </div>
-                </div>
-
-                <div class="rownome">
-                    <div class="colnome">
-                        <div class="nome">
-                            <input type="text" name="nome" value="" placeholder="Nome do Usuário" />
+        <div class="container">
+            <div class="rowcard">
+                <div class="cardbody">
+                    <div class="rowtitlecard">
+                        <div class="coltitlecard">
+                            <h4 class="card-title">CONECTE-SE
+                            </h4>
                         </div>
                     </div>
-                </div>
-                <div class="rowsenha">
-                    <div class="colsenha">
-                        <div class="senha">
-                            <input type="text" name="nome" value="" placeholder="senha" />
-                        </div>
-                    </div>
-                </div>
 
-                <div class="rowchek">
-                    <div class="colchek">
-                        <label class="checkbox">
-                            <input type="checkbox" name="lembre" id="vgb" value="checkedValue"
-                                class="custom-control-input">
-                            <span class="custom-control-indicator"></span>
-                            <span class="custom-control-description"></span>
-                            <vertical-align>lembre de mim</vertical-align>
-                            <div class="colconecte">
-                                <button class="conecte">Conecte-se</button>
+                    <div class="rownome">
+                        <div class="colnome">
+                            <div class="nome">
+                                <input type="text" name="username" class="user" placeholder="Nome do Usuário" />
                             </div>
-                        </label>
+                        </div>
                     </div>
-                </div>
-
-                <footer>
-                    <div class="row">
-                        <div class="col">
-                            <a href="">Esqueceu sua senha?</a>
+                    <div class="rowsenha">
+                        <div class="colsenha">
+                            <div class="senha">
+                                <input type="text" name="nome" value="" placeholder="senha" />
+                            </div>
                         </div>
                     </div>
 
-                </footer>
+                    <div class="rowchek">
+                        <div class="colchek">
+                            <label class="checkbox">
+                                <input type="checkbox" name="lembre" id="vgb" value="checkedValue"
+                                    class="custom-control-input">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description"></span>
+                                <vertical-align>Lembre de mim</vertical-align>
+                                <div class="colconecte">
+                                    <button class="conecte">Conecte-se</button>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <footer>
+                        <div class="row">
+                            <div class="col">
+                                <a href="">Esqueceu sua senha?</a>
+                            </div>
+                        </div>
+
+                    </footer>
+                </div>
             </div>
         </div>
     </section>
@@ -83,7 +88,7 @@
     <section class="desenvolvido">
         <div class="row">
             <div class="col">
-                <p>Desenvolvido por WHMCS</p>
+                <a href="*">Desenvolvido por WHMCS</a>
             </div>
         </div>
     </section>
