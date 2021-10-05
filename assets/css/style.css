@@ -14,7 +14,14 @@ body {
 
 /*fim da sessão header*/ 
 
-header .dropbtn {
+header .rowidioma {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 65px;
+}
+
+header #idioma {
     background-color: #286090;
     color: #ffff;
     padding: 5px 10px;
@@ -22,38 +29,22 @@ header .dropbtn {
     border: none;
     cursor: pointer;
     align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: end;
 }
 
-header .dropdown {
-position: relative;
-display: flex;
-justify-content: end;
+
+header .rowidioma .colidioma select {
+
 }
 
-header .dropdown-content {
-display: none;
-position: absolute;
-background-color: #f9f9f9;
-min-width: 160px;
-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-z-index: 1;
-}
 
-header .dropdown-content a {
+header #idioma opition {
 color: black;
 padding: 12px 16px;
 text-decoration: none;
 display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.dropdown:hover .dropbtn {
-background-color: #3e8e41;
 }
 
 
